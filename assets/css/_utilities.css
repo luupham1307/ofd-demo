@@ -1,0 +1,46 @@
+/* font weight */
+.font-bold, .nav-menu a  {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+.font-medium {
+  font-weight: 500;
+}
+
+/* font-family */
+.header , .navbar {
+  font-family: var(--font-mon);
+}
+.sub-menu {
+  font-family: var(--font-ro);
+}
+
+/* bg color */
+.navbar, .bars, .dashboard , .sub-menu, .search-container , 
+.sidebar-body{
+  background-color: var(--bg-color);
+}
+
+.header-container > p, .footer, .nav-search {
+background-color: var(--heading-color);
+}
+.header-container > p {
+  color: var(--primary-color);
+  }
+  .sidebar-items i  {
+    color: var(--body-color);
+  }
+/* boder radius */
+.newsfeed-container{
+  border-radius: var(--rounded-sm);
+}
+.newsfeed-content img {
+  border-radius: var(--rounded);
+}
+
+
+
+  

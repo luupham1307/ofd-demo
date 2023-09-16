@@ -1,0 +1,19 @@
+.swiper-button-next::after, .swiper-button-prev::after,
+.swiper-pagination::after {
+  color: #9c9a9a;
+    
+    font-size: 20px !important
+  }
+
+  
+  /* video */
+  .video-container video::-webkit-media-controls,
+    .video-container video::-webkit-media-controls-enclosure {
+        display: none !important;
+    }
+    .video-container video {
+      width: 100%;
+      height: 100%;
+    }
+
+    

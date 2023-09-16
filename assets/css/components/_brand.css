@@ -1,0 +1,8 @@
+.nav-logo {
+    position: relative;
+    z-index: 4; 
+  }
+  .nav-logo > img {
+  width: 56px;
+  height: 56px;
+  }

@@ -1,0 +1,25 @@
+.text-xs {
+  font-size: 0.875rem;
+    line-height: calc(20 / 14);
+    font-weight: 400;
+}
+.text-sm {
+    font-size: 0.875rem;
+    line-height: calc(20 / 14);
+  }
+  .text-md {
+    font-size: 1rem;
+    line-height: calc(20 / 16);
+  }
+
+.mst {
+  padding-bottom: 17px;
+}
+
+.footer-h4 {
+  padding-top: 30px;
+}
+.newsfeed-content p {
+  font-size: 1.125rem;
+  font-weight: 500;
+}

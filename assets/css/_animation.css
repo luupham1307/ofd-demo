@@ -1,0 +1,47 @@
+i:hover, svg:hover {
+    animation: pulse 0.5s ease-in-out;
+  }
+  @keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+  }
+  @keyframes showout{
+    from{
+        opacity:0;
+        transform:translateX(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(100%);
+    }
+}
+.best-seller-text:hover a , .collection-text:hover a{
+    font-weight: 500;
+}
+.clothes-text:hover a, .newsfeed-content a:hover {
+    text-decoration: underline;
+}
+.tab:hover {
+    background-color: var(--heading-color); 
+}
+.nav-search:hover {
+    background-color: var(--hover-color); 
+  }
+  .sidebar-close i:hover {
+    transform: rotate(90deg)
+  }
+  .newsdetails-wrapper:hover {
+    box-shadow: var(--shadow-black);
+
+}
+.btn:hover .shadow.shadow-btn {
+    opacity: 1;
+    
+}

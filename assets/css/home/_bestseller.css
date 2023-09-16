@@ -1,0 +1,158 @@
+   .bestseller {
+    margin: 54px 0;
+    background-color: #fff;
+   }
+   .bestseller-heading{
+   display: flex;
+   align-items: center;
+  justify-content:space-between;
+   }
+   .best-seller-text {
+    margin:  25px 0 20px 0;
+   }
+.best-clothes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between
+}
+.clothes-details {
+    display: flex;
+}
+.clothes-none1{
+  transition: opacity 0.3s ease-in-out;
+}
+.clothes-none2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+  .best-clothes:hover .clothes-none2 {
+    opacity: 1;
+  }
+   .best-clothes {
+  max-width: 100%; 
+  height: auto;
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+   
+  }
+  .parent-container {
+    position: relative;
+}
+  .clothes-img {
+    display: inline-block; 
+    position: relative;
+}
+.clothes-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  .clothes-items {
+    position: absolute;
+    z-index: 10;
+    bottom: 10px;
+    right: 25px;
+   }
+  .clothes-svg{
+    width: 30px;
+    height: 30px;
+    text-align:right ;
+  }
+  .clothes-img img {
+    max-width: 300px;
+    height: auto;
+  }
+  .img-panner {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    max-height: 40px;
+    margin-top: -10px
+  }
+  .clothes-text{
+    font-family: var(--font-ro);
+    font-size: 15px;
+    line-height: 20px;
+    padding: 13px 0;
+    font-weight: 400;
+    
+  }
+  .clothes-content {
+    top: 95%;
+    /* bottom: 0; */
+    position: absolute;
+    /* display: ; */
+  }
+  .clothes-money {
+    font-weight: 500;
+    white-space: nowrap;
+    font-size: 16px;
+    font-family: var(--font-ro);
+    /* text-align: left; */
+    align-items: end;
+  }
+  
+/* .clothes-details img {
+    width: 120px;
+    height: 40px;
+} */
+.clothes-img {
+  position: relative;
+}
+
+.clothes-img img.social {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+  .best-clothes-swiper ,  .new-clothes-swiper , .collection-items{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+
+.swiper-slide {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  object-fit: contain;
+}
+.swiper-slide img {
+    display: block;
+   
+    object-fit: cover;
+}
+
+
+.swiper-navigation {
+    position: absolute;
+    display: flex;
+    z-index: 5;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    color: gray;
+}
+.btn-cl {
+    margin-top: 46px;
+}
+.clothes-content {
+  position: absolute;
+  top: 95%;
+}

@@ -1,0 +1,16 @@
+.btn-cancel {
+    text-align: right;
+    transition: .3s ease;
+}
+.btn-cancel i{
+    transition:.3s ease;
+}
+.btn-cancel i:hover {
+    transform: rotate(90deg)
+}
+.btn {
+    border-bottom: 10px;
+    padding: 16px 36px;
+    background-color: black;
+    border-radius: 25px;
+}

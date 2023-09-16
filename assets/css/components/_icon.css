@@ -1,0 +1,32 @@
+
+.icon {
+    --icon-size: 18px;
+    font-size: var(--icon-size);
+    height: var(--icon-size);
+    aspect-ratio: 1 / 1;
+    text-align: center;
+    color: var(--primary-color);
+  }
+
+  .icon-xs {
+    margin-left: 0.2rem;
+    opacity: .6;
+    font-size: 0.7rem;
+    text-align: center;
+    aspect-ratio: 1 / 1;
+  }
+  .icon-sm {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+  }
+  .arrow > svg {
+    width: 1.857rem;
+    height: 1.857rem;
+    opacity: 0.5;
+  }
+  
+  .chevron {
+    width: 1.5rem;
+    height: 1.5rem;
+    opacity: 0.5;
+}

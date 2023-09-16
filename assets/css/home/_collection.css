@@ -1,0 +1,29 @@
+.collection {
+    margin-bottom: 54px;
+}
+.tab-container {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.collection-text {
+    text-align: end;
+}
+.tab-items button {
+    background-color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    transition: background-color 0.4s, color 0.4s; 
+    font-weight: 500;
+}
+.tab-content {
+    display: none;
+}
+.tab-content.active {
+    display: block;
+}
+.tab-container {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+

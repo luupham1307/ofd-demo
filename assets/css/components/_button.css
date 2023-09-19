@@ -14,3 +14,61 @@
     background-color: black;
     border-radius: 25px;
 }
+.btn-sm {
+    border-radius: 7px;
+    padding: 8px 8px;
+    background-color: var(--bg-color);
+    border : var(--border-sm);
+}
+.btn-color {
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border-radius: 14px;
+    border: 1px solid var(--heading-color);
+}
+/* input[type="checkbox"] {
+    display: none;
+} */
+
+.checkbox-container {
+    display: inline-block;
+    /* position: relative; */
+    /* padding-left: 25px;  */
+    cursor: pointer;
+}
+.checkbox-container input {
+    padding-right: .3rem;
+} 
+/* .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px; 
+    width: 18px;
+    border: 1px solid #aaa; 
+}
+input[type="checkbox"]:checked + .checkmark {
+    background-color: #2196F3; 
+}
+input[type="checkbox"]:checked + .checkmark {
+    border: 1px solid #2196F3;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+input[type="checkbox"]:checked + .checkmark:after {
+    display: block;
+}
+.checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+} */
+

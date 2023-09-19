@@ -19,7 +19,11 @@
 .footer-h4 {
   padding-top: 30px;
 }
-.newsfeed-content p {
+.newsfeed-content p , .newsfeed-favorite-content p  {
   font-size: 1.125rem;
   font-weight: 500;
+}
+.is-xsmall {
+  font-size: .75rem;
+  font-weight: 400;
 }

@@ -1,0 +1,116 @@
+.lu-products {
+    margin: 2.5rem 0;
+}
+.lu-products-head-nav, .lu-products-btn, .lu-products-head-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lu-products-head-nav button {
+    /* flex: 1; */
+    background-color: var(--bg-color);
+}
+.lu-products-head-nav {
+    gap: 1.5rem;
+}
+.lu-products-body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    display: flex;
+    overflow: hidden;
+}
+.lu-products-dashboard {
+    width: 15%;
+    /* min-width: 260px;
+    max-width: 400px; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background-color: var(--primary-sidebar); */
+    animation: sidebarIn 1s ease;
+    transition: all 1s ease;
+    /* color: var(--text-black-color); */
+    box-shadow: 1px 0 4px var(--shadow-black);
+}
+.lu-product-wrapper {
+    width: 85%;
+    /* min-height: 100vh; */
+    /* transition: .4s; */
+}
+.dashboard-title {
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.lu-dashboard-inner , .dashboard-title, .lu-products-header {
+    padding-bottom: .375rem;
+
+}
+.dashboard-title-hidden {
+    margin-left: 10px;
+    /* display: none; */
+}
+.dashboard-title-hidden .btn-sm {
+    /* width: 40px;
+    margin: 0 5px 5px 0; */
+}
+.dashboard-title-size {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .375rem;
+}
+.dashboard-color {
+    width: 32%;
+    height: 100%;
+    min-height: 68px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.dashboard-color p {
+    padding-top: .375rem;
+}
+.color-box {
+display: flex;
+flex-wrap: wrap;
+}
+.btn-color svg {
+    color: #FFFFFF;
+    padding: 3px;
+    display: none;
+}
+.is-purple {
+    background-color: var( --color-purple);
+}
+.is-black{
+    background-color: var(--primary-color) ;
+}
+.is-red {
+    background-color: var(--color-red);
+}
+.is-orange {
+    background-color: var(--color-orange);
+}
+.is-blu {
+    background-color: var(--color-blu);
+}
+.is-brown {
+    background-color: var(--color-brown);
+}
+.is-green{
+    background-color: var(--color-green);
+}
+.is-yellow{
+    background-color: var(--color-yellow);
+}
+.is-grey {
+    background-color: var(--color-grey);
+}
+.is-pink {
+    background-color: var(--color-pink);
+}

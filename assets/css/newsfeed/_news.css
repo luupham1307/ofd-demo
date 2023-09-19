@@ -1,29 +1,27 @@
-.newsfeed {
-    margin-bottom: 60px;
+.newsfeed , .newsfeed-favorite{
+    margin: 30px 0;
 }
 .newsfeed-container {
     background-color: var(--news-bg);
     padding: 25px 25px 0 25px;
     position: relative;
 }
-
-
-.newsfeed-box{
+.newsfeed-box , .newsfeed-favorite-box{
     display: flex;
     flex-direction: row;
     padding: 1rem 0;
     /* margin: 1rem; */
 }
 
-.newsfeed-content {
+.newsfeed-content, .newsfeed-favorite-content {
     padding: 9px;
     overflow: hidden;
    
 }
-.newsfeed-content p {
+.newsfeed-content p , .newsfeed-favorite-content p {
     padding-top: 1rem;
 }
-.newsfeed-content a:hover {
+.newsfeed-content a:hover , .newsfeed-favorite-content a:hover {
     transition: all 3s ease; 
 }
 .news-navigation {
@@ -34,8 +32,7 @@
     top: 50%
 }
 
-
-.newsfeed-wrapper
+.newsfeed-wrapper, .newsfeed-favorite-wrapper
 {
     font-family: var(--font-ro);
     position: relative;
@@ -43,10 +40,10 @@
     height: 100%;
     overflow: hidden;
 }
-.underline-animation {
+/* .underline-animation {
     font-family: var(--font-ro);
-}
-.newsfeed-content p {
+} */
+.newsfeed-content p , .newsfeed-favorite-content p{
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;

@@ -19,7 +19,7 @@
     color: var(--primary-color);
     font-size: 1.25rem;
   }
-  .arrow > svg {
+  .arrow > svg  {
     width: 1.857rem;
     height: 1.857rem;
     opacity: 0.5;
@@ -29,4 +29,8 @@
     width: 1.5rem;
     height: 1.5rem;
     opacity: 0.5;
+}
+.svg {
+  width: 1.2rem;
+  height: 1.2rem;
 }

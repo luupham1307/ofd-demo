@@ -1,5 +1,5 @@
 // bestseller
-var swiper = new Swiper(".best-clothes-swiper", {
+var bestClothesSwiper = new Swiper(".best-clothes-swiper", {
     slidesPerView: 5,
     spaceBetween: 10,
     navigation: {
@@ -29,7 +29,6 @@ var swiper = new Swiper(".best-clothes-swiper", {
         },
     },
 });
-
 
 // Swiper cho phần "HÀNG MỚI"
 var swiperNewItems = new Swiper(".new-clothes-swiper", {
@@ -136,6 +135,8 @@ var swiper = new Swiper(".network-img", {
     },
 
 });
+
+// console.log(newsFavorite)
 
 // collection
 function changeTab(tabIndex) {

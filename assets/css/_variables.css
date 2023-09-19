@@ -7,6 +7,18 @@
   --hover-color: #e5e5e5;
   --news-bg: rgb(249, 248, 108);
   --color-blue: #0275d8;
+  --color-purple:#8D429F;
+  --color-red: #E7352B;
+  --color-orange:#F36B26;
+  --color-blu: #1790C8;
+  --color-brown: #825D41;
+  --color-green: #7BBA3C;
+  --color-yellow: #FED533;
+  --color-grey: #808080;
+  --color-pink: #F0728F;
+  --color-link: #2f5acf;
+  --color-box: #f1f1f1;
+  /* --primary-sidebar: rgb(246, 248, 250); */
 
   /* Typography */
   --font-mon: 'Montserrat', sans-serif;
@@ -25,6 +37,8 @@
   --border: 0 solid #ddd;
   --border-color: rgba(0, 0, 0, 0.0625);
   --border-black: rgba(22,22,24,0.16);
+  --border-sm: 1px solid #000;
+  --border-gray: 1px solid #ddd;
 
 
   /* Container */

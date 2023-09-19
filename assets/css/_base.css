@@ -58,6 +58,9 @@ hr {
 .swiper-slide img {
   object-fit: cover;
 }
-i, button, a {
+i, button, a , svg, li {
   cursor: pointer;
+}
+button {
+  background-color: #fff;
 }

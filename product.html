@@ -18,6 +18,8 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/products/product.css" />
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
@@ -26,7 +28,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!--swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <title>Tin Tức</title>
+    <title>OFD.vn</title>
 </head>
 
 <body>
@@ -42,7 +44,7 @@
                 <div class="container-fluid">
                     <div class="navbar-container">
                         <!-- logo -->
-                        <a href="./index.html" class="nav-logo">
+                        <a href="./home.html" class="nav-logo">
                             <img src="./assets/img/logo/Logo Web-01.svg" alt="Nike Logo">
                         </a>
                         <ul class="nav-menu">
@@ -1083,7 +1085,7 @@
                             <li class="nav-item">
                                 <!-- nav-title -->
                                 <div class="nav-items">
-                                    <a href="#">TIN TỨC</a>
+                                    <a href="./news_feed.html">TIN TỨC</a>
                                 </div>
                             </li>
                         </ul>
@@ -1122,7 +1124,7 @@
                         <div class="sidebar-wrapper">
                             <div class="sidebar-close">
                                 <i class="fa-solid fa-xmark"></i>
-                                <a href="./index.html">
+                                <a href="./home.html">
                                     <img class="sidebar-img" src=" ./assets/img/logo/Logo Web-02.svg" alt=" logo">
                                 </a>
                             </div>
@@ -1250,7 +1252,7 @@
                                     <div class="subnav-box ">
                                         <ul class="subnav-list">
                                             <li>
-                                                <a href="">Nổi Bật</a>
+                                                <a href="./news_feed.html">Nổi Bật</a>
                                             </li>
                                             <li>
                                                 <a href="">Áo</a>
@@ -1340,583 +1342,276 @@
             </nav>
         </div>
     </header>
-
-    <!--features  Swiper -->
     <main>
-        <section class="newsfeed">
+        <section class="lu-products">
             <div class="container">
-                <div class="newsfeed-container">
-                    <h2>Bảng tin OFD</h2>
-                    <div class="newsfeed-wrapper">
-                        <div class="swiper-wrapper newsfeed-box">
-                            <div class="swiper-slide newsfeed-content">
-                                <img src="./assets/img/newsfeed/tin1.avif" alt="">
-                                <p><a href=""> Top 08 mẫu áo đồng phục công ty vận chuyển,
-                                        vận
-                                        tải đẹp cao cấp </a></p>
-                            </div>
-                            <div class="swiper-slide newsfeed-content">
-                                <img src="./assets/img/newsfeed/tin2.avif" alt="">
-                                <p><a href=""> Gợi ý 9 địa chỉ may áo sơ mi đồng phục công ty đẹp, cao cấp, giá tốt</a>
-                                </p>
-                            </div>
-                            <div class="swiper-slide newsfeed-content">
-                                <img src="./assets/img/newsfeed/tin3.avif" alt="">
-                                <p><a href="">Top 10+ địa chỉ cơ sở may áo thun đồng phục công ty đẹp, cao cấp, giá
-                                        tốt</a>
-                                </p>
-                            </div>
-                            <div class="swiper-slide newsfeed-content">
-                                <img src="./assets/img/newsfeed/tin3.avif" alt="">
-                                <p><a href="">Top 10+ địa chỉ cơ sở may áo thun đồng phục công ty đẹp, cao cấp, giá
-                                        tốt</a>
-                                </p>
+                <div class="lu-products-container">
+                    <div class="lu-products-header">
+                        <div class="lu-products-item text-sm ">
+                            <a href="">Nam</a>
+                            <span>/</span>
+                            <a href="">Áo</a>
+                        </div>
+                        <div class="lu-products-head-title">
+                            <h3>Nam</h3>
+                            <div class="lu-products-head-nav">
+                                <button class="lu-products-btn">
+                                    <span>Hide Filter</span>
+                                    <svg aria-hidden="true" class="icon-filter-ds" focusable="false" viewBox="0 0 24 24"
+                                        role="img" width="24px" height="24px" fill="none">
+                                        <path stroke="currentColor" stroke-width="1.5" d="M21 8.25H10m-5.25 0H3"></path>
+                                        <path stroke="currentColor" stroke-width="1.5"
+                                            d="M7.5 6v0a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clip-rule="evenodd">
+                                        </path>
+                                        <path stroke="currentColor" stroke-width="1.5" d="M3 15.75h10.75m5 0H21"></path>
+                                        <path stroke="currentColor" stroke-width="1.5"
+                                            d="M16.5 13.5v0a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"
+                                            clip-rule="evenodd">
+                                        </path>
+                                    </svg>
+                                </button>
+                                <button class="lu-products-btn">
+                                    <span>Sort By
+                                    </span>
+                                    <div class="svg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                        </svg>
+                                    </div>
+                                </button>
                             </div>
                         </div>
-                        <!-- arrow -->
-                    </div>
-                    <div class="swiper-navigation">
-                        <div class=" chevron newsfeed-next">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-                            </svg>
-                        </div>
-                        <div class=" chevron newsfeed-prev">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                            </svg>
 
+                    </div>
+                    <div class="lu-products-body">
+                        <div class="lu-products-dashboard">
+                            <div class="lu-dashboard-inner">
+                                <div class="dashboard-title">
+                                    <span class="font-medium ">Áo </span>
+                                    <div class="svg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="dashboard-title-hidden">
+                                    <ul>
+                                        <li><a href=""></a>Áo thun
+                                        </li>
+                                        <li><a href=""></a>
+                                            Áo Polo</li>
+                                        <li><a href=""></a>
+                                            Áo Bra thể thao</li>
+                                        <li><a href=""></a>Áo không tay</li>
+                                        <li><a href=""></a>
+                                            Áo dài tay</li>
+                                        <li><a href=""></a>
+                                            Áo Hoodie</li>
+                                        <li><a href=""></a>
+                                            Áo khoác</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lu-dashboard-inner">
+                                <div class="dashboard-title">
+                                    <span class="font-medium ">Size </span>
+                                    <div class="svg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="dashboard-title-hidden  dashboard-title-size">
+                                    <button class="btn-sm">XS</button>
+                                    <button class="btn-sm">S</button>
+                                    <button class="btn-sm">M</button>
+                                    <button class="btn-sm">L</button>
+                                    <button class="btn-sm">XL</button>
+                                    <button class="btn-sm">XXL</button>
+                                </div>
+                            </div>
+                            <div class="lu-dashboard-inner">
+                                <div class="dashboard-title">
+                                    <span class="font-medium ">Color </span>
+                                    <div class="svg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="dashboard-title-hidden color-box ">
+                                    <button class="dashboard-color" onclick="toggleSvg(1)">
+                                        <span class="btn-color is-purple">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6" id="colorSvg1">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M4.5 12.75l6 6 9-13.5" />
+                                            </svg>
+
+                                        </span>
+                                        <p>Purple</p>
+                                    </button>
+                                    <button class="dashboard-color" onclick="toggleSvg(2)">
+                                        <span class="btn-color is-black">
+                                            <svg id="colorSvg2" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M4.5 12.75l6 6 9-13.5" />
+                                            </svg>
+                                        </span>
+                                        <p>Black</p>
+                                    </button>
+                                    <button class="dashboard-color" onclick="toggleSvg(3)">
+                                        <span class="btn-color  is-red">
+                                            <svg id="colorSvg3" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M4.5 12.75l6 6 9-13.5" />
+                                            </svg>
+                                        </span>
+                                        <p>Red</p>
+                                    </button>
+                                    <button class="dashboard-color" onclick="toggleSvg(4)">
+                                        <span class="btn-color is-orange">
+                                            <svg id="colorSvg4" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M4.5 12.75l6 6 9-13.5" />
+                                            </svg>
+                                        </span>
+                                        <p>Orange</p>
+                                    </button>
+                                    <button class="dashboard-color" onclick="toggleSvg(5)">
+                                        <span class="btn-color is-blu">
+                                            <svg id="colorSvg5" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M4.5 12.75l6 6 9-13.5" />
+                                            </svg>
+                                        </span>
+                                        <p>Blue</p>
+                                    </button>
+                                    <button class="dashboard-color" onclick="toggleSvg(6)">
+                                        <span class="btn-color is-white">
+                                            <svg style="color: black;" id="colorSvg6" xmlns="http://www.w3.org/2000/svg"
+                                                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M4.5 12.75l6 6 9-13.5" />
+                                            </svg>
+                                        </span>
+                                        <p>White</p>
+                                    </button>
+                                    <button class="dashboard-color" onclick="toggleSvg(7)">
+                                        <span class=" btn-color is-brown">
+                                            <svg id="colorSvg7" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M4.5 12.75l6 6 9-13.5" />
+                                            </svg>
+                                        </span>
+                                        <p>Brown</p>
+                                    </button>
+                                    <button class="dashboard-color " onclick="toggleSvg(8)">
+                                        <span class="btn-color is-green">
+                                            <svg id="colorSvg8" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M4.5 12.75l6 6 9-13.5" />
+                                            </svg>
+                                        </span>
+                                        <p>Green</p>
+                                    </button>
+                                    <button class="dashboard-color" onclick="toggleSvg(9)">
+                                        <span class="btn-color is-yellow">
+                                            <svg id="colorSvg9" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M4.5 12.75l6 6 9-13.5" />
+                                            </svg>
+                                        </span>
+                                        <p>Yellow</p>
+                                    </button>
+                                    <button class="dashboard-color" onclick="toggleSvg(10)">
+                                        <span class="btn-color is-grey">
+                                            <svg id="colorSvg10" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M4.5 12.75l6 6 9-13.5" />
+                                            </svg>
+                                        </span>
+                                        <p>Grey</p>
+                                    </button>
+                                    <button class="dashboard-color" onclick="toggleSvg(11)">
+                                        <span class="btn-color is-pink">
+                                            <svg id="colorSvg11" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M4.5 12.75l6 6 9-13.5" />
+                                            </svg>
+                                        </span>
+                                        <p>Pink</p>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="lu-dashboard-inner">
+                                <div class="dashboard-title">
+                                    <span class="font-medium ">Giá </span>
+                                    <div class="svg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="dashboard-title-hidden">
+                                    <div class="dashboard-price">
+                                        <label class="checkbox-container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            Under 300.000vnđ
+                                        </label>
+                                        <label class="checkbox-container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            300.000vnđ - 500.000vnđ
+                                        </label>
+                                        <label class="checkbox-container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            500.000vnđ - 700.000vnđ
+                                        </label>
+                                        <label class="checkbox-container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            700.000vnđ - 1.000.000vnđ
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lu-product-wrapper">
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="newsdetails">
-            <div class="container">
-                <div class="newsdetail-container">
-                    <h2>Bảng tin OFD</h2>
-                    <div class="newsdetails-content">
-                        <div class="newsdetails-wrapper">
-                            <div class="newsdetail-inner">
-                                <a href="./newsfeed_details.html">
-                                    <img src="./assets/img/newsfeed/newsdetail1.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <div class="newsdetails-wrapper">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail2.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <div class="newsdetails-wrapper">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail1.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-
-                        <div class="newsdetails-wrapper">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail4.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <div class="newsdetails-wrapper">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail5.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <div class="newsdetails-wrapper">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail1.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <div class="newsdetails-wrapper">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail2.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <div class="newsdetails-wrapper">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail1.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <div class="newsdetails-wrapper hidden">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail4.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <div class="newsdetails-wrapper hidden">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail5.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <div class="newsdetails-wrapper hidden">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail1.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <div class="newsdetails-wrapper hidden">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail2.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <!-- hidden -->
-                        <div class="newsdetails-wrapper hidden">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail4.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <div class="newsdetails-wrapper hidden">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail5.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <div class="newsdetails-wrapper hidden">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail1.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                        <div class="newsdetails-wrapper hidden">
-                            <div class="newsdetail-inner">
-                                <a href="">
-                                    <img src="./assets/img/newsfeed/newsdetail2.webp" alt="newsdetai">
-                                    <div class="newsdetail-box">
-                                        <h4>DELTA SPORT HÂN HẠNH LÀ NHÀ TÀI TRỢ BÓNG – GIẢI BÓNG ĐÁ HỘI THAO TRUYỀN
-                                            THỐNG
-                                            ISB – ISB GAMES 2023</h4>
-                                        <span class="newsdetail-time">09/08/2023</span>
-
-                                        <span class="is-divider"></span>
-                                        <p>Giải bóng đá Hội thao truyền thống ISB – ISB GAMES 2023 là sự kiện truyền
-                                            thông báo chí</p>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="newsdetail-contact">
-
-                                <a href="" class="newsdetail-share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
-                                    </svg>
-                                    Share
-                                </a>
-
-                                <a href="">Chi tiết</a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <button id="show-more-button" class="btn shadow shadow-btn "><a href="">Xem
-                            thêm</a></button>
-                </div>
-
             </div>
         </section>
     </main>
@@ -2000,15 +1695,13 @@
     </footer>
 
     <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/newsfeed.js"></script>
+    <script src="./assets/js/products.js"></script>
 
     <!-- AOS Script fkf -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({ duration: 750 });
     </script>
-
 </body>
-
 
 </html>

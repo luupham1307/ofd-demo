@@ -28,6 +28,12 @@
 @import url("./newsfeed/_news.css");
 @import url("./newsfeed/_newsdetails.css");
 @import url("./newsfeed/_reponsi_new.css");
+/* products */
+@import url("./products/product.css");
+/* newsfeed_details */
+@import url("./newsfeed_details/newsfeed_detail.css");
+@import url("./newsfeed_details/newsfeed_favorite.css");
+
 
 
 

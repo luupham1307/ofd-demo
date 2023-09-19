@@ -25,7 +25,9 @@ i:hover, svg:hover {
 .best-seller-text:hover a , .collection-text:hover a{
     font-weight: 500;
 }
-.clothes-text:hover a, .newsfeed-content a:hover {
+.clothes-text:hover a, 
+.newsfeed-content a:hover , 
+.newsfeed-favorite-content a:hover {
     text-decoration: underline;
 }
 .tab:hover {
@@ -37,11 +39,17 @@ i:hover, svg:hover {
   .sidebar-close i:hover {
     transform: rotate(90deg)
   }
-  .newsdetails-wrapper:hover {
+  .newsdetails-wrapper:hover , .newsfeed-details-wrapper:hover {
     box-shadow: var(--shadow-black);
-
+    
 }
 .btn:hover .shadow.shadow-btn {
     opacity: 1;
     
+}
+.newsfeed-details a:hover(:not(.newsfeed-dashboard-menu-scoll a)) {
+    text-decoration: underline;
+}
+.newsfeed-dashboard-menu-scoll a:hover {
+    color: var(--color-link);
 }

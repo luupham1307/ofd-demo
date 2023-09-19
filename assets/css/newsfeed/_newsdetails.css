@@ -2,8 +2,7 @@
     margin-bottom: 2rem;
 }
 .newsdetail-container h2 {
-   
-    margin: 20px;
+    margin-bottom: 20px;
 }
 .newsdetail-container {
     display: flex;
@@ -18,9 +17,12 @@
 }
 .newsdetails-wrapper {
     border: 1px solid #ddd;
-    /* margin: 0 15px 30px; */
     display: block;
   transition: var( --transition);
+  border-radius: 10px;
+}
+.newsdetail-inner img {
+  border-radius:10px 10px 0 0;
 }
 
 .newsdetail-box{
@@ -75,6 +77,8 @@
 
 .btn a {
     color: var(--bg-color) ;
+    font-weight: 600;
+    font-size: 1rem;
 }
 .newsdetails-content .hidden {
     display: none;

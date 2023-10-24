@@ -1,4 +1,10 @@
-h1,
+h1{
+  font-family: var(--font-mon);
+  font-weight: 700;
+  font-size: 2rem;
+
+}
+
 h2{
   font-family: var(--font-mon);
   font-weight: 700;
@@ -19,10 +25,8 @@ h3 {
     font-size: 1rem;
     line-height: calc(20 / 16);
   }
-  h4.h4-hotline {
-    line-height: 1.6rem;
-  }
-  /* h6 {
-    font-size: .75rem;
-  } */
- 
+ h5 {
+  font-size: 0.875rem;
+ }
+
+

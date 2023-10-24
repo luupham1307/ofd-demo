@@ -2,17 +2,15 @@
   padding: 25px 0 46px 0;
 }
 
-.network-items {
-  /* overflow: scroll;
-  object-fit: cover;
-   overflow-x: hidden; */
-
-}
   .img-box img {
     display: block;
     max-height: 100%;
     object-fit: contain;
+    transition: var(--transition) ;
   
+  }
+  .img-box:hover {
+    box-shadow: var( --shadow-black);
   }
   .network-header {
     margin-bottom: 40px;

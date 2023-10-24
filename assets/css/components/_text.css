@@ -1,3 +1,7 @@
+.text-xxs {
+  font-size: .75rem;
+font-weight: 300;
+}
 .text-xs {
   font-size: 0.875rem;
     line-height: calc(20 / 14);
@@ -11,14 +15,13 @@
     font-size: 1rem;
     line-height: calc(20 / 16);
   }
+.text-18 {
+  font-size: 1.125rem;
+  line-height: calc(20 / 18);
 
-.mst {
-  padding-bottom: 17px;
+
 }
 
-.footer-h4 {
-  padding-top: 30px;
-}
 .newsfeed-content p , .newsfeed-favorite-content p  {
   font-size: 1.125rem;
   font-weight: 500;
@@ -27,3 +30,4 @@
   font-size: .75rem;
   font-weight: 400;
 }
+

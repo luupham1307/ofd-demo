@@ -1,4 +1,6 @@
-i:hover, svg:hover {
+
+ 
+  i:not(.sidebar-close i, .icon-search):hover , svg:hover {
     animation: pulse 0.5s ease-in-out;
   }
   @keyframes pulse {
@@ -22,34 +24,41 @@ i:hover, svg:hover {
         transform: translateX(100%);
     }
 }
-.best-seller-text:hover a , .collection-text:hover a{
+.best-seller-text:hover a , .collection-text:hover a
+, .sidebar-items:hover{
     font-weight: 500;
 }
 .clothes-text:hover a, 
-.newsfeed-content a:hover , 
-.newsfeed-favorite-content a:hover {
+.newsfeed-content p:hover , 
+.newsfeed-favorite-content p:hover
+, .sidebar-items:hover {
     text-decoration: underline;
 }
 .tab:hover {
     background-color: var(--heading-color); 
 }
-.nav-search:hover {
-    background-color: var(--hover-color); 
-  }
-  .sidebar-close i:hover {
+
+  .sidebar-close i:hover{
     transform: rotate(90deg)
   }
-  .newsdetails-wrapper:hover , .newsfeed-details-wrapper:hover {
+ 
+  .newsdetails-wrapper:hover , .nav-search:hover, .newsfeed-dashboard-menu:hover, .newsfeed-favorite-content img:hover,
+  .img-box img:hover, .lu-col-block-title:hover
+
+  {
     box-shadow: var(--shadow-black);
     
 }
+
 .btn:hover .shadow.shadow-btn {
-    opacity: 1;
-    
+    opacity: 1;   
 }
 .newsfeed-details a:hover(:not(.newsfeed-dashboard-menu-scoll a)) {
     text-decoration: underline;
 }
-.newsfeed-dashboard-menu-scoll a:hover {
+.newsfeed-dashboard-menu-scoll a:hover , .network-header  a:hover  {
     color: var(--color-link);
+}
+.lu-sub-category-item a:hover {
+    color: red;
 }

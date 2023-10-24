@@ -1,5 +1,13 @@
 .lu-products {
-    margin: 2.5rem 0;
+    /* margin: 1rem 0; */
+
+}
+.lu-products-header {
+    position: sticky;
+    top: 100px;
+    z-index: 99;
+    background-color: white;
+    padding-top: 1rem;
 }
 .lu-products-head-nav, .lu-products-btn, .lu-products-head-title{
     display: flex;
@@ -13,30 +21,42 @@
 .lu-products-head-nav {
     gap: 1.5rem;
 }
+.chevron-up {
+    display: none;
+}
 .lu-products-body {
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: var(--bg-color);
     display: flex;
-    overflow: hidden;
+    /* overflow: hidden; */
+  transition:.4s ease;
+
 }
 .lu-products-dashboard {
-    width: 15%;
-    /* min-width: 260px;
-    max-width: 400px; */
+    /* width: 15%; */
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    /* background-color: var(--primary-sidebar); */
     animation: sidebarIn 1s ease;
-    transition: all 1s ease;
-    /* color: var(--text-black-color); */
+    transition: var(--transition);
     box-shadow: 1px 0 4px var(--shadow-black);
+    position: sticky;
+    top: 180px;
+    overflow-y: auto;
+    max-width: 180px;
+    max-height: 750px;
+    /* transition: .4s ease; */
+    /* transform: translateX(0%); */
+    transition: width 2s;
+}
+.lu-products-box {
+    margin-right: 26px;
 }
 .lu-product-wrapper {
-    width: 85%;
+    transition: .4s ease;
+    /* width: 85%; */
+    transition: width 2s;
     /* min-height: 100vh; */
-    /* transition: .4s; */
 }
 .dashboard-title {
     cursor: pointer;
@@ -46,8 +66,8 @@
 }
 .lu-dashboard-inner , .dashboard-title, .lu-products-header {
     padding-bottom: .375rem;
-
 }
+
 .dashboard-title-hidden {
     margin-left: 10px;
     /* display: none; */
@@ -114,3 +134,20 @@ flex-wrap: wrap;
 .is-pink {
     background-color: var(--color-pink);
 }
+/* lu-product-wrapper */
+.lu-product-wrapper {
+  padding-left: 40px;
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(3, minmax(0, 1fr)); 
+  gap: 1rem; 
+}
+.product-info img {
+   position: relative;
+}
+.parent-container img {
+    width: 100%;
+}
+.lu-product-inner:hover .clothes-none2 {
+      opacity: 1;
+    }

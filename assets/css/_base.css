@@ -58,9 +58,41 @@ hr {
 .swiper-slide img {
   object-fit: cover;
 }
-i, button, a , svg, li {
+i, button, a , svg {
   cursor: pointer;
 }
-button {
-  background-color: #fff;
+
+
+/* font-family */
+.header , .navbar {
+  font-family: var(--font-mon);
 }
+.sub-menu {
+  font-family: var(--font-ro);
+}
+
+/* bg color */
+button, .navbar, .bars, .dashboard , .sub-menu, .search-container ,  .is-white , .nav-search
+.sidebar-body{
+  background-color: var(--bg-color);
+}
+/* boder radius */
+.newsfeed-container , .newsfeed-favorite-container{
+  border-radius: var(--rounded-sm);
+}
+.newsfeed-content img  , .newsfeed-favorite-content img{
+  border-radius: var(--rounded);
+}
+
+.header-container > p, .footer{
+  background-color: var(--heading-color);
+  }
+.header-container > p {
+  color: var(--primary-color);
+  }
+.sidebar-items i  {
+  color: var(--body-color);
+  }
+  
+  
+  

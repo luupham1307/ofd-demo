@@ -67,7 +67,7 @@
     max-width: 300px;
     height: auto;
   }
-  .img-panner {
+  .img-banner {
     width: 100%;
     max-width: 120px;
     height: auto;
@@ -144,7 +144,7 @@
     z-index: 5;
     justify-content: space-between;
     align-items: center;
-    bottom: 50%;
+    bottom: 45%;
     left: 0;
     right: 0;
     color: gray;

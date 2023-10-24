@@ -1,0 +1,188 @@
+.my-account-container {
+    margin: 0 15%;
+}
+.form-row-po {
+    position: relative;
+}
+.form-row-po > .icon {
+    position: absolute;
+    
+    right: 2%;
+    bottom: 17%;}
+
+.form {
+    position: relative;
+    /* position:absolute; */
+    /* top:850%; */
+    /* left:50%; */
+    /* transform:translate(-50%,-50%); */
+    /* width:480px; */
+    max-width: 512px;
+    height:700px;
+    margin:0 auto;
+}
+.form .head {
+  width:100%;
+  height:55px;
+  display:flex;
+  /* margin-bottom: 2rem; */
+  border-bottom: 0.5px solid #ccc;
+}
+.form .head > div {
+  width:50%;
+  height:100%;
+  text-align:center;
+  line-height:55px;
+  cursor:pointer;
+  background:transparent;
+  text-transform:uppercase;
+  font-size:15px;
+}
+.form .head.signup > div:nth-child(2),.form .head > div:nth-child(1) {
+  background:#eee;
+ border-bottom: 2px solid #333;
+ 
+
+  
+
+}
+
+.form .head.signup > div:nth-child(1) {
+  background:transparent !important;
+ /* border-bottom: 1px solid #333; */
+ border-bottom: none !important;
+
+}
+
+
+.form .body {
+  position:absolute;
+  overflow:hidden;
+  width:100%;
+  height:100%;
+}
+.form .body > div {
+  position:absolute;
+  width:100%;
+  height:100%;
+  transition:all 300ms ease-in-out;
+}
+.form .body > div.login {
+  left:0%;
+}
+.form .body > div.signup {
+  left:100%;
+}
+.form .body.active > div.login {
+  left:-100%;
+}
+.form .body.active > div.signup {
+  left:0%;
+}
+.form .body .form-row {
+  /* border-top:1px solid #ccc; */
+}
+.form .body .form-row label {
+  display:block;
+  padding-top: 1.5rem;
+  font-size:12px;
+  font-weight:600;
+  text-transform:uppercase;
+}
+.form .body .form-row input {
+  width:100%;
+  border:none;
+  outline:none;
+  height:3.5rem;
+  text-indent:10px;
+  font-size:14px;
+  border: 1px solid #333;
+  border-radius: 0.125rem;
+  margin-top: 0.5rem;
+  border-width: 1px;
+}
+.form .body .form-row button {
+  width:100%;
+  border:none;
+  outline:none;
+  height:3.5rem;
+  background-color: rgb(189, 193, 197);
+  text-transform:uppercase;
+  color:#333;
+  font-size:16px;
+  cursor:pointer;
+  font-weight: 700;
+  border-radius: 0.125rem;
+
+}
+
+.form .body .rem-row {
+  padding:15px 15px 15px 0;
+  /* border-top:1px solid #ccc; */
+  line-height:30px;
+}
+.form .body .rem-row > input {
+  width:17px;
+  height:17px;
+  border:1px solid #999;
+  border-radius:0px;
+  position:relative;
+  top:3px;
+}
+.form .body .rem-row > label {
+  font-size:15px;
+  margin-left:5px;
+  cursor:pointer;
+  font-weight: 300;
+}
+.form .body .row {
+  text-align:center;
+  padding:8px 0px;
+}
+.form .body .row span {
+  font-size:14px;
+  position:relative;
+  color:#222;
+  top:5px;
+  font-weight:600;
+}
+.form .body .footer {
+  position:absolute;
+  bottom:50px;
+  width:100%;
+  border-top:1px solid #ccc;
+}
+.form .body .footer > div.social-form {
+  float:left;
+  padding-left:50px;
+  width:100%;
+  height:40px;
+  line-height:40px;
+  text-indent:2%;
+  color:#fcfcfc;
+  position:relative;
+  font-size:14px;
+  cursor:pointer;
+}
+.form .body .footer i {
+  position:absolute;
+  width:40px;
+  height:40px;
+  left:0px;
+  line-height:40px;
+  background:rgba(0,0,0,0.3);
+  text-align:center;
+}
+
+@media (max-width: 768px) {
+    .my-account-container {
+        margin: 0 ;
+    }
+    
+}
+@media (max-width: 576px) {
+    .form{
+        height: 620px;
+    }
+    
+}

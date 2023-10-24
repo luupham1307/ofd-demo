@@ -57,5 +57,6 @@
   --shadow-black : 0px 4px 8px rgba(0, 0, 0, 0.2); 
   --shadow-text: 0 0 5px rgba(0, 0, 0, 0.5);
   --shadow-icon: 0 0 5px rgba(0, 0, 0, 0.3); 
+  --shadow-gray: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 20px #fffb;
 
 }

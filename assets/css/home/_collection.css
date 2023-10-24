@@ -1,29 +1,130 @@
+
 .collection {
+    position: relative;
     margin-bottom: 54px;
 }
-.tab-container {
-    padding-top: 25px;
-    display: flex;
-    justify-content: space-between;
-}
 .collection-text {
-    text-align: end;
+  text-align: end;
 }
-.tab-items button {
-    background-color: white;
-    padding: 14px 20px;
-    cursor: pointer;
-    transition: background-color 0.4s, color 0.4s; 
-    font-weight: 500;
+.lu-collection-items {
+  display: grid;
+  grid-template-columns: repeat(5 , 1fr);
 }
-.tab-content {
+
+/* tab */
+.tabs {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.input {
+  position: absolute;
+  opacity: 0;
+}
+.label {
+  width: auto;
+  /* width: 100%; */
+  padding: 0.875rem 1.25rem;
+  background: #e5e5e5;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #7f7f7f;
+}
+.label:hover {
+  background: #d8d8d8;
+}
+.label:active {
+  background: #ccc;
+}
+.input:focus + .label {
+  z-index: 1;
+}
+.input:checked + .label {
+  background: #fff;
+  color: #000;
+}
+
+
+.panel {
+  order: 99;
+}
+div#swiper-wrapper-3c77b4d7fd6f927d {
+  width: 300px;
+}
+.panel-img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 470px) {
+  .tabs-heading-hidden {
+    display: none;
+  }
+  .tabs-heading {
+    position: absolute;
+    left: 0;
+    padding: 0.875rem 1.25rem;
+    line-height: 1.875rem;
+}
+  /* .label {
+    width: auto;
+  } */
+}
+.panel {
+  display: none;
+}
+
+ 
+@media (max-width:1200px) {
+  .lu-collection-items {
+    display: grid;
+   grid-template-columns: repeat(4 , 1fr);
+  }
+  .best-clothes.hidden-lg {
     display: none;
 }
-.tab-content.active {
+  
+}
+@media (max-width:768px) {
+  .lu-collection-items {
+    display: grid;
+   grid-template-columns: repeat(3 , 1fr);
+  }
+  .best-clothes.show {
+    display: none;
+
+  }
+  
+}
+@media (max-width:576px) {
+  .lu-collection-items {
+   grid-template-columns: repeat(2 , 1fr);
+  }
+  .best-clothes.hidden-sm {
+    display: none;
+  }
+  
+}
+@media (min-width: 600px) {
+ 
+}
+.input:checked + .label + .panel {
+  display: block;
+}
+@media (max-width: 470px) {
+  .tabs-heading {
+    display: none;
+  }
+  .tabs-heading-hidden {
     display: block;
+  }
+  .tabs {
+   
+    justify-content: flex-start;
 }
-.tab-container {
-    display: flex;
-    border-bottom: 1px solid #ccc;
 }
+
+/*  */
+
 

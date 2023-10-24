@@ -33,6 +33,20 @@
 /* newsfeed_details */
 @import url("./newsfeed_details/newsfeed_detail.css");
 @import url("./newsfeed_details/newsfeed_favorite.css");
+/* product_detail */
+@import url("./product_detail/product_detail.css");
+/* collection */
+@import url("./collection/collection.css");
+/* account */
+@import url("./account/account.css");
+/* cart */
+@import url("./cart/cart.css");
+/* favorites */
+@import url("./favorites/favorites.css");
+
+
+
+
 
 
 

@@ -1,0 +1,81 @@
+
+.lu-category-view {
+    text-align: center;
+}
+.lu-category-image {
+    margin: 3% auto 0 auto;
+}
+.lu-category-image .lu-image-col{
+     margin: auto;}
+
+.lu-image-col {
+    max-width: 1700px;
+    max-height: 690px;
+}
+.lu-sub-category-nav {
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 2.375rem;
+}
+.lu-sub-category-item {
+    display: inline-block;
+    padding: 1.25rem 0.9375rem;
+}
+.lu-sub-category-item a {
+    font-size: 1rem;
+    /* font-weight: 500; */
+}
+.lu-sub-category-item a.active {
+    color: red;} 
+.lu-page-title {
+    margin-bottom: 1.25rem;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+.lu-col-block-title {
+    width: 61px;
+    height: 41px;
+    background: 0 0;
+    border: 1px solid #eaeaea;
+    font-size: 12px;
+    color: #000;
+    border-radius: 4px;
+    margin: 0;
+    position: relative;
+    padding: 14px 13px 12px 12px;
+    box-sizing: border-box;
+    line-height: normal;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+    .lu-col-block-title strong {
+            font-size: inherit;
+            font-weight: 400;
+        }
+.lu-col-slide {
+    grid-template-columns: repeat(5, 1fr);
+}
+.lu-col-slide .clothes-items {
+    right: 15px;
+}
+@media (max-width: 992px) {
+    .lu-col-slide {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+}
+@media (max-width: 768px) {
+    .lu-col-slide {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+@media (max-width: 576px) {
+    .lu-col-slide {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}

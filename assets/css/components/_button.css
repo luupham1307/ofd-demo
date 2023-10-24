@@ -8,6 +8,7 @@
 .btn-cancel i:hover {
     transform: rotate(90deg)
 }
+/* btn đen */
 .btn {
     border-bottom: 10px;
     padding: 16px 36px;
@@ -27,6 +28,11 @@
     border-radius: 14px;
     border: 1px solid var(--heading-color);
 }
+.button {
+    border-radius: 25px;
+    border: 1px solid #333;
+}
+
 /* input[type="checkbox"] {
     display: none;
 } */
@@ -72,3 +78,63 @@ input[type="checkbox"]:checked + .checkmark:after {
     transform: rotate(45deg);
 } */
 
+
+
+
+.lu-custom-button {
+    display: inline-block;
+    position: relative;
+    /* box-shadow: rgb(229, 229, 229) 0px 0px 0px 1px; */
+    /* background-color: #ccc; */
+    /* border: 1px solid #000; */
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: rgb(17, 17, 17) 0px 0px 0px 1px inset;
+    background: white;
+
+
+  }
+  
+  .lu-custom-button input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .lu-custom-button label {
+    display: block;
+    padding: 10px;
+    height: 48px;
+    width:70px;
+    cursor: pointer;
+
+    /* border-radius: 5px; */
+  }
+  
+  .lu-custom-button input:checked + label {
+    border-radius: 4px;
+    border: none;
+    box-shadow: rgb(229, 229, 229) 0px 0px 0px 1px inset;
+  }
+  
+  .bt-gray {
+    background: #c8c8c8;
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 0 23px;
+    text-align: center;
+    color: white;
+    height: 40px;
+    white-space: nowrap;
+}
+.btn-d9d9d9 {
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #d9d9d9;
+}
